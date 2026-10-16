@@ -1,0 +1,13 @@
+2026-10-16T17:21:57.427512+00:00 ubuntu sudo: fatimajaleel : TTY=/dev/tty1 ; PWD=/home/fatimajaleel/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T17:21:57.794963+00:00 ubuntu groupadd[6768]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T17:21:57.797650+00:00 ubuntu groupadd[6768]: group added to /etc/gshadow: name=lab5user
+2026-10-16T17:21:57.802551+00:00 ubuntu groupadd[6768]: new group: name=lab5user, GID=1001
+2026-10-16T17:21:57.844976+00:00 ubuntu useradd[6773]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/0
+2026-10-16T17:35:00.659550+00:00 ubuntu chfn[6823]: changed user 'lab5user' information
+2026-10-16T17:35:04.424888+00:00 ubuntu gpasswd[6834]: members of group users set by root to fatimajaleel,lab5user
+2026-10-16T17:35:27.135682+00:00 ubuntu sudo: fatimajaleel : TTY=/dev/tty1 ; PWD=/home/fatimajaleel/lab05-linux ; USER=root ; COMMAND=/usr/bin/passwd lab5user
+2026-10-16T17:37:09.447846+00:00 ubuntu chpasswd[6870]: pam_unix(chpasswd:chauthtok): password changed for lab5user
+2026-10-16T17:39:46.445994+00:00 ubuntu su[6938]: (to lab5user) fatimajaleel on tty1
+2026-10-16T17:39:46.451367+00:00 ubuntu su[6938]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by fatimajaleel(uid=1000)
+2026-10-16T17:43:05.356780+00:00 ubuntu su[6938]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T17:44:52.184234+00:00 ubuntu sudo: fatimajaleel : TTY=/dev/tty1 ; PWD=/home/fatimajaleel/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
