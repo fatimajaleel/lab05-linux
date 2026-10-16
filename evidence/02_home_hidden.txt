@@ -1,0 +1,14 @@
+total 52
+drwxr-x--- 8 fatimajaleel fatimajaleel 4096 Oct 16 04:23 .
+drwxr-xr-x 3 root         root         4096 Sep 16 19:37 ..
+-rw------- 1 fatimajaleel fatimajaleel 1496 Oct 10 15:04 .bash_history
+-rw-r--r-- 1 fatimajaleel fatimajaleel  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 fatimajaleel fatimajaleel 3771 Feb 13  2026 .bashrc
+drwx------ 2 fatimajaleel fatimajaleel 4096 Sep 16 19:47 .cache
+-rw-rw-r-- 1 fatimajaleel fatimajaleel  189 Oct 16 04:21 .gitconfig
+-rw-r--r-- 1 fatimajaleel fatimajaleel  807 Feb 13  2026 .profile
+drwx------ 2 fatimajaleel fatimajaleel 4096 Oct 16 04:14 .ssh
+drwxrwxr-x 3 fatimajaleel fatimajaleel 4096 Oct 10 14:49 Assignment01
+drwxrwxr-x 3 fatimajaleel fatimajaleel 4096 Oct 10 07:07 Gitea
+drwxrwxr-x 5 fatimajaleel fatimajaleel 4096 Oct 16 04:24 lab05-linux
+drwxrwxr-x 2 fatimajaleel fatimajaleel 4096 Sep 25 07:49 mylab
